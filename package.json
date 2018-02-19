@@ -1,0 +1,26 @@
+{
+  "name": "fortress",
+  "version": "0.0.1",
+  "description": "An authentication service for the Hydra platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/different-strokes/fortress.git"
+  },
+  "author": "Fredrik Stave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/different-strokes/fortress/issues"
+  },
+  "homepage": "https://github.com/different-strokes/fortress#readme",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-helmet": "^3.3.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.4.0"
+  }
+}
